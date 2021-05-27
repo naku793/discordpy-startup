@@ -18,8 +18,9 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
-    
-if message.content == "スロット":
+
+@bot.command()
+if message.content == "slot":
 kakuritu = random.randint(1, 399)
 slot_list = ['\U00002660', '\U00002663', '\U00002665', '\U00002666', ':seven:']
 A = random.choice(slot_list)
